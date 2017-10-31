@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">platzigram</string>
+    <string name="hint_user">User Name</string>
+    <string name="hint_passwor">Password</string>
+    <string name="text_btnlogin">Login</string>
+    <string name="text_notaccount">You do not have an account? Create one here</string>
+    <string name="hint_correo">Email</string>
+    <string name="hint_nombre">Name</string>
+    <string name="hint_usuario">User</string>
+    <string name="hint_confirmpasswor">Confirm Password</string>
+    <string name="text_unete">Join</string>
+    <string name="toolbar_title">Create a account</string>
+    <string name="username_Card">Omar Lopez</string>
+    <string name="first_textcard">Does</string>
+    <string name="timecard">4 Dias</string>
+    <string name="likenumber_card">10 Likes</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_profile">Profile</string>
+    <string name="tab_home">Home</string>
+    <string name="like">Like</string>
+    <string name="lorem">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años.</string>
+   </resources>
