@@ -31,7 +31,7 @@ public class LoginActivity extends  android.support.v7.app.AppCompatActivity  {
             @Override
             public void onClick(View view) {
                 try {
-                   //los flags son para borrar el istorial de navegacion
+                   //los flags son para borrar el historial de navegacion
                     Intent intent = new Intent( LoginActivity.this, homeActivity.class );
                     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     intent.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);

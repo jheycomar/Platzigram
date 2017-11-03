@@ -57,6 +57,7 @@ public class PictureAdapterreciclerView extends  RecyclerView.Adapter<PictureAda
             public void onClick(View view) {
 
                 Intent intent=new Intent(activity, PicturedetailActivity.class);
+                //si el SDK del dispositivo es mayor a Lollipop se anima
                 if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.LOLLIPOP){
                     Explode explode=new Explode();
                     explode.setDuration(1000);
