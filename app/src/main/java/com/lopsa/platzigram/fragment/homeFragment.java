@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -48,7 +49,14 @@ private FloatingActionButton fab;
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view,"FAB Button Hi",Snackbar.LENGTH_LONG).show();
+                //este codigo muestra el fracment
+                NewpostFragment newpostFragment=new NewpostFragment();
+                getActivity().getSupportFragmentManager().beginTransaction()
+                   .replace(R.id.container,newpostFragment)
+                        .addToBackStack(null).commit();
+
+
+               // Snackbar.make(view,"FAB Button Hi",Snackbar.LENGTH_LONG).show();
             }
         });
 

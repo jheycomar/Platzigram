@@ -11,6 +11,7 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
 
+
     <style name="AppTheme.TransNav" parent="AppTheme" />
     <style name="CustomTitleTextAppearance">
         <item name="android:textSize">15sp</item>
@@ -62,11 +63,12 @@
 
     <style name="editTextblack" parent="TextAppearance.AppCompat">
         <item name="android:textColorHint">@color/editTextcolorblack</item>
-        <item name="android:textColor">@color/editTextcolorblack</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textColorPrimary">@color/editTextcolorblack</item>
         <item name="colorAccent">@color/editTextcolorblack</item>
         <item name="colorControlNormal">@color/editTextcolorblack</item>
         <item name="colorControlActivated">@color/editTextcolorblack</item>
     </style>
+
+
 </resources>

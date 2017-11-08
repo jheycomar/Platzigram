@@ -37,10 +37,10 @@ private  BottomBar bottomBar;
                         break;
 
                     case R.id.tab_home:
+
                         homeFragment homefragment=new homeFragment();
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,homefragment)
                                 .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE).addToBackStack(null).commit();
-
                         break;
                     case R.id.tab_profile:
                         profileFragment profilefragment=new profileFragment();
