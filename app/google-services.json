@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "357146639342",
+    "firebase_url": "https://platzigram-7c2d4.firebaseio.com",
+    "project_id": "platzigram-7c2d4",
+    "storage_bucket": "platzigram-7c2d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357146639342:android:1c1959b9b4a13e2d",
+        "android_client_info": {
+          "package_name": "com.lopsa.platzigram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357146639342-cm4f9ve1cs1v153k8tifuird13pjl1u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxb14mmMc-VGjkEMpst0LK9BDzJhmPK7Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

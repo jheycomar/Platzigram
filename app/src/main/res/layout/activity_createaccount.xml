@@ -14,82 +14,83 @@
     android:fillViewport="true"
     android:padding="20dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior">
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingTop="25dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="25dp">
 
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/editTextblack">
-        <android.support.design.widget.TextInputEditText
-            android:id="@+id/txtcorreo"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="@string/hint_correo"
-            android:inputType="textEmailAddress"/>
-    </android.support.design.widget.TextInputLayout>
+            android:theme="@style/editTextblack">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtcorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/hint_correo"
+                android:inputType="textEmailAddress"/>
+        </android.support.design.widget.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/editTextblack">
-        <android.support.design.widget.TextInputEditText
-            android:id="@+id/txtnombre"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="@string/hint_nombre"
-            android:inputType="text"/>
-    </android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/editTextblack">
-        <android.support.design.widget.TextInputEditText
-            android:id="@+id/txtusuario"
+            android:theme="@style/editTextblack">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtnombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/hint_nombre"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="@string/hint_usuario"/>
-    </android.support.design.widget.TextInputLayout>
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/editTextblack">
-        <android.support.design.widget.TextInputEditText
-            android:id="@+id/txtcontrasena"
+            android:theme="@style/editTextblack">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtusuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/hint_usuario"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="@string/hint_passwor"
-            android:inputType="textPassword"/>
-    </android.support.design.widget.TextInputLayout>
+            android:theme="@style/editTextblack">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtcontrasena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/hint_passwor"
+                android:inputType="textPassword"/>
+        </android.support.design.widget.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/editTextblack">
-        <android.support.design.widget.TextInputEditText
-            android:id="@+id/txtconfircontrasena"
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:hint="@string/hint_confirmpasswor"
-            android:inputType="textPassword"/>
-    </android.support.design.widget.TextInputLayout>
+            android:theme="@style/editTextblack">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/txtconfircontrasena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/hint_confirmpasswor"
+                android:inputType="textPassword"/>
+        </android.support.design.widget.TextInputLayout>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/text_unete"
-        android:layout_marginTop="22dp"
-        android:theme="@style/Raisebutton"/>
-</LinearLayout>
+        <Button
+            android:id="@+id/btncreateaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_unete"
+            android:layout_marginTop="22dp"
+            android:theme="@style/Raisebutton"/>
+    </LinearLayout>
 
 </ScrollView>
 
